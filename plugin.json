@@ -1,0 +1,28 @@
+{
+    "name": "ol-polls",
+    "author": ["Anish"],
+    "email": "anish@openlearning.com",
+    "license": "MIT",
+    "version": "0.0.1",
+    "description": "Check items off a list towards completion.",
+    "category": "Self Assessment",
+
+
+    "setup": {
+        "checklist": [
+            {"id": "1", "text": "Jurrasic Park"},
+            {"id": "2", "text": "Back to future"}
+        ],
+        "votingHeadline": "Which is your Fav Movie",
+        "votingLabel" : "Vote"
+    },
+
+    "display": {
+        "main": "display.html",
+        "setup": "setup.html"
+    },
+
+    "collaboration": false,
+
+    "sharing": false
+}
